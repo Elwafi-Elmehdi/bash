@@ -2,8 +2,6 @@
 
 # Printing Hello friend to the screen
 
-echo "Whats your name?"
+echo "Hello $(whoami)!"
 
-read name 
 
-echo "Hello, $name your are welcomed here!"
