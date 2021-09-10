@@ -2,5 +2,8 @@
 
 # Printing Hello friend to the screen
 
-echo "Hello, friend"
-date # print the date 
+echo "Whats your name?"
+
+read name 
+
+echo "Hello, $name your are welcomed here!"
