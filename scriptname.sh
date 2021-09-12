@@ -1,4 +1,4 @@
 #!/bin/bash
 # Reason: print script name
 
-echo $0
+echo "this is your script's name : $0"
