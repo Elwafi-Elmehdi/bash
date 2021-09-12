@@ -2,4 +2,4 @@
 
 payload= tr "[:lower:]" "[:upper:]" < $1
 
-echo payload
+echo $payload
