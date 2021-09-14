@@ -1,5 +1,5 @@
 #!/bin/bash
 
 echo "System groups: "
-output= ${cat /etc/group | cut -d: -f1}
+output=$(cut -d: -f1 /etc/group)
 echo ${output}
