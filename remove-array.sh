@@ -6,4 +6,10 @@ echo ${numbers[*]}
 
 unset numbers[4]
 
-echo ${numbers}
+echo ${numbers[*]}
+
+unset numbers # Empty the whole array
+
+echo ${numbers[*]}
+
+
