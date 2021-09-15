@@ -7,6 +7,6 @@ read -r b
 
 echo "a+b is $(($a+$b))"
 echo "a-b is $(($a-$b))"
-echo "a+b is $(($a+$b))"
-echo "a+b is $(($a+$b))"
-echo "a+b is $(($a+$b))"
+echo "a*b is $(($a*$b))"
+echo "a/b is $(($a/$b))"
+echo "a%b is $(($a%$b))"
