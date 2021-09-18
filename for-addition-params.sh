@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 
-sum=0
-echo $#
-for i in $#
+count=0
+
+array=$*
+
+for i in 0..$#
 do
-	param=$i
-	sum= $((sum + param))
+	echo  $array[i]
 done
 
-echo $sum
+echo $count
