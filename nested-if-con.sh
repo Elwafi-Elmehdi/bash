@@ -10,6 +10,7 @@ if [ $TEMP -gt 5  ]; then
 		echo "The weathe is cool"
 	else 
 		echo "The weather in hot."
+	fi
 else
 	echo "Its Freezing outside"	
 fi
