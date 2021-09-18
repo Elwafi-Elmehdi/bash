@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 
 sum=0
-
-for i in $*
+echo $#
+for i in $#
 do
-	sum= $((sum + i))
+	param=$i
+	sum= $((sum + param))
 done
 
 echo $sum
