@@ -2,11 +2,9 @@
 
 count=0
 
-array=$*
-
-for i in 0..$#
+for i in "$@"
 do
-	echo  $array[i]
+	echo $i 
 done
 
 echo $count
