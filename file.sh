@@ -2,7 +2,7 @@
 
 if [ $# -ne 1  ]; then
 	echo "Error: Invalid number of agrs"
-	exit
+	exit 1
 fi
 
 file=$1
