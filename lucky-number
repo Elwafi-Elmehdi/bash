@@ -6,4 +6,7 @@ fi
 
 if [ $1 -eq 7 ]; then
        echo "$1 is the lucky number"
+
+else 
+	echo "$1 is not the lucky number"
 fi
