@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+if [ $# -ne 1  ]; then
+	echo "invalid args number"
+fi
+
+
+if [ $1 -eq 7 ]; then
+       echo "$1 is the lucky number"
+fi
