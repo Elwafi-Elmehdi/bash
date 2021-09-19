@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+if [ $# -ne 1  ]; then
+	echo "Error: Invalid number of agrs"
+	exit
+fi
 
 file=$1
 
