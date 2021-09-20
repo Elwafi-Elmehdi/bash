@@ -3,6 +3,6 @@
 
 ditros=(manjaro arch fedora ubuntu RHEL)
 
-for ((i=0;i < ${#distros} ;i++)); do 
-	echo ${distros[$i]}
+for ((i=0 ;i < ${#ditros}; i++)); do 
+	echo ${ditros[$i]}
 done
