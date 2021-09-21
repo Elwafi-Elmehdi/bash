@@ -11,7 +11,7 @@ cat <<-EOF > ./$name.sh
 #!/usr/bin/env bash
 
 #REASON : `echo $reason`
-#Author : `echo $USER`
+#AUTHOR : `echo $USER`
 #CREATED DATE : $(date +"%F %T")
 EOF
 
