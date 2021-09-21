@@ -5,13 +5,20 @@ if [ $# -ne 2 ]; then
 fi
 
 name=$1
+reason=$2
 
-cat <<EOF 
+prefix= $(cat <<EOF 
 #!/usr/bin/env bash
 
-#REASON : `echo $2`
+#REASON : `echo $reason`
 #Author : `echo $USER`
 #CREATED DATE : `date +"%F %T"`
+EOF 
+)
 
-EOF >> "$name.sh"
+echo $prefix > "$name.sh"
+
+if [$? -eq 0];then
+	chmod u+x "$name.sh"
+fi
 
