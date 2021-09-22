@@ -9,5 +9,9 @@ while [[ $input != "bye"  ]]; do
 	
 	echo "Entre a string value"
 	read input
+	if [[ $input == 'bye' ]]; then
+		echo "Good bye!"
+		exit 0
+	fi
 	echo "You entered $input"
 done
