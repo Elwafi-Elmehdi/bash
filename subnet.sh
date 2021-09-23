@@ -4,8 +4,8 @@
 #AUTHOR : mehdi
 #CREATED DATE : 2021-09-23 18:29:11
 
-for ip in "192.168.1.{1,255}"; do
-	ping -C 2 $ip
+for ip in 192.168.1.{1..255}; do
+	ping -i 0.5 -c 2 $ip > /dev/null
 	if [ $? -eq 0  ]; then 
 		echo "$ip is up and running."
 	else
