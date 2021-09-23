@@ -7,8 +7,8 @@
 for ip in 192.168.1.{1..255}; do
 	ping -i 0.5 -c 2 $ip > /dev/null
 	if [ $? -eq 0  ]; then 
-		echo "$ip is up and running."
+		echo "SERVER : $ip IS UP AND RUNNING"
 	else
-		echo "$ip is unreachable"
+		echo "SERVER : $ip IS UNREACHABLE"
 	fi 
 done
