@@ -15,6 +15,7 @@ hello () {
 	return 0
 }
 
+# Calling function without args
 hello 
-
+# Calling function with user env agr
 hello "$USER"
