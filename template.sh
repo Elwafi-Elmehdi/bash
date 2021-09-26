@@ -15,8 +15,6 @@ cat <<-EOF > ./$name.sh
 #CREATED DATE : $(date +"%F %T")
 EOF
 
-#echo $prefix > "$name.sh"
-
 if [ $? -eq 0 ]; then
 	chmod u+x *.sh
 fi
