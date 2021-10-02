@@ -9,7 +9,7 @@ read user
 
 grep $user /etc/passwd > /dev/null
 
-if [ $? -eq 0]; then
+if [ $? -eq 0 ]; then
 	grep $user /etc/passwd
        	echo "$user exists"
 else
