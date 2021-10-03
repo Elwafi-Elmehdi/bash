@@ -3,3 +3,9 @@
 #REASON : infinite recursion function
 #AUTHOR : mehdi
 #CREATED DATE : 2021-10-03 17:12:43
+
+function recur () {
+	echo "Hello Friend"
+	recur
+}
+recur
