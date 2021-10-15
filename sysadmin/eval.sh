@@ -3,3 +3,7 @@
 #REASON : Exploring eval
 #AUTHOR : mehdi
 #CREATED DATE : 2021-10-16 00:38:00
+
+dir=$(ls -ltr)
+echo "$dir"
+eval $dir
